@@ -7,6 +7,7 @@ import { About } from "./screens/about";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Nav from "./screens/nav"
 import NotFound from "./screens/notFound";
+import { FlowerPage } from "./screens/flowerpage";
 
 const App = () => {
   const [fillColors, setFillColors] = useState(Array(22).fill("white"));
@@ -27,13 +28,10 @@ const App = () => {
         <Route path="/" component= {Home} />
         <Route path="/about" component= {About} />
         <Route default component={NotFound}/>
+        <Route path="/flower" component={FlowerPage}/>
         </Routes>
         </Router>
       </div>
-      <div className="flower">
-        <Flower fillColors={fillColors} onFill={onFillColor} />
-      </div>
-      <ColorPalette currentColor={currentColor} changeColor={setCurrentColor} />
     </div>
   );
 };

@@ -9,6 +9,7 @@ export default class Nav extends Component {
                     <ul className='nav-links'>
                         <li><NavLink to="/"> Home </NavLink></li>
                         <li><NavLink to="/about"> About </NavLink></li>
+                        <li><NavLink to="/flower"> Flower </NavLink></li>
                     </ul>
                 </nav>
             </div>
