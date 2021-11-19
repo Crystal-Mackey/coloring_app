@@ -25,13 +25,14 @@ const App = () => {
         <Router>
         <Nav />
         <Routes>
-        <Route path="/" component= {Home} />
+        <Route path="/" component= {Home}> </Route>
         <Route path="/about" component= {About} />
         <Route default component={NotFound}/>
-        <Route path="/flower" component={FlowerPage}/>
+        <Route path="/flower" component={FlowerPage}></Route>
         </Routes>
         </Router>
       </div>
+      <FlowerPage/>
     </div>
   );
 };
