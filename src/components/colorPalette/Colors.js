@@ -1,11 +1,12 @@
+
 import React from 'react'
 
-export default function ColorPalette(props) {
+export default function Colors(props) {
 
     const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'turquoise', 'purple', 'pink', 'deeppink']
 
     return(
-        <div className="color-palette">
+        <div className="colors">
             {colors.map(color => { 
                 const activeClass = props.currentColor === color ? 'color-swatch-active' : '';
                 return (

@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import "./App.css";
-import Flower from "./components/Flower";
-import ColorPalette from "./components/colorPalette";
-import { Home } from "./screens/home";
-import { About } from "./screens/about";
-import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import Nav from "./screens/nav"
-import NotFound from "./screens/notFound";
-import { FlowerPage } from "./screens/flowerpage";
+import Home from "./components/home/Home";
+import Contact from "./components/contact/Contact";
+import About from "./components/about/About";
+import {Route, Link, Routes } from 'react-router-dom';
+import NavBar from "./components/navigation/NavBar";
+import FlowerPage from "./components/flower/Flowerpage"
+import FiretruckPage from "./components/firetruck/Firetruckpage";
 
 const App = () => {
   const [fillColors, setFillColors] = useState(Array(22).fill("white"));
@@ -19,21 +18,20 @@ const App = () => {
     setFillColors(newFillColors);
   };
 
+  
+
   return (
     <div className="App">
-      <div>
-        <Router>
-        <Nav />
-        <Routes>
-        <Route path="/" component= {Home}> </Route>
-        <Route path="/about" component= {About} />
-        <Route default component={NotFound}/>
-        <Route path="/flower" component={FlowerPage}></Route>
-        </Routes>
-        </Router>
-      </div>
-      <FlowerPage/>
+      <NavBar/>
+    <Routes>
+     <Route exact path="/" element={<Home/>} />
+     <Route exact path="/about" element={<About/>} />
+     <Route exact path="/contact" element={<Contact/>} />
+     <Route exact path="/flower" element={<FlowerPage/>} />
+     <Route exact path="/firetruck" element={<FiretruckPage/>} />
+     </Routes>
     </div>
+      
   );
 };
 

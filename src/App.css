@@ -3,13 +3,13 @@
   justify-content: center;
 }
 
-.warmerandwax {
+.download{
   display:flex;
-  justify-content: left;
-  transform: rotate(180deg)
+  justify-content: center;
 }
 
-.color-palette {
+
+.colors {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
