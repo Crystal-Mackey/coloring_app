@@ -1,3 +1,15 @@
+body {
+  background-color: blueviolet;
+}
+
+
+.Navbar {
+  display:flex;
+  flex-direction: row;
+  color: black;
+}
+
+
 .flower {
   display: flex;
   justify-content: center;
