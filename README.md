@@ -1,11 +1,10 @@
 Hiring Hackathon: Jr. Web Devs
 Coloring app for my first ever hackathon from Nov 16,2021- Nov 23, 2021.
-______________________________________________________________________________
+
 
 
 Information about the challenge can be viewed here on the official page: https://mintbean.io/meets/cfa4fa54-c706-4c51-a04f-671f6686f9fd
 
-______________________________________________________________________________
 
 Features:
 Navigate between pages.
