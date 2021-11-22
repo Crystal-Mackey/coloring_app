@@ -4,8 +4,10 @@ export default class Flower extends React.Component {
     render () {
         return (
             // this is the breakdown for the flower image including all paths 
+            <div classname="flower">
             <svg xmlns="http://www.w3.org/2000/svg" width="793.70076" height="793.7067066666666">
                 <title>Sun Flower Template</title>
+                
                 <g id="layer2" transform="translate(114 66)" display="inline">
                 <g id="svg_27" transform="matrix(0.849029 0 0 0.849029 65.2874 25.9633)">
                     <path id="svg_28" onClick={() => this.props.onFill(0)} fill={this.props.fillColors[0]} fill-rule="evenodd" stroke="#000000" stroke-width="8" d="m335.662872,237.986206c29.202484,-24.342041 60.58606,-230.559322 9.385345,-295.979031c-73.760437,41.40971 -167.217957,217.611736 -116.882584,287.760891c50.335403,70.149139 107.90538,6.715332 107.497238,8.21814z"/>
@@ -32,7 +34,8 @@ export default class Flower extends React.Component {
                     <path id="svg_50" opacity="0.810241" onClick={() => this.props.onFill(21)} fill={this.props.fillColors[21]} fill-rule="evenodd" stroke-width="1.3" stroke-linecap="round" stroke-dashoffset="0" d="m309.209381,355.325439a72.857147,72.857147 0 1 1 -145.714294,0a72.857147,72.857147 0 1 1 145.714294,0z"/>
                 </g>
                 </g>
-            </svg>
+                
+            </svg></div>
         )
     }
 }

@@ -14,21 +14,23 @@ function FlowerPage() {
     setFillColors(newFillColors);
   };
 
+
+  
+
   
   return (
     <div>
       <div className="flower">
-        <Flower fillColors={fillColors} onFill={onFillColor} />
+        
+       <Flower fillColors={fillColors} onFill={onFillColor} /> 
       </div>
       <div>
         <Colors currentColor={currentColor} changeColor={setCurrentColor} />
-</div>
+</div><a href="flower.flower" download="flower.jpg">
         <div className="download">
-          <a id="btnDownloadSVG" class="button gray">
-            Download SVG
-          </a>
-        
-      </div>
+          <button>download</button>
+        </div></a>
+      
     </div>
   );
 }
