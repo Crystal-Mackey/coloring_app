@@ -16,6 +16,7 @@ return (
         <div className="firetruck">
             <FireTruck fillColors={fillColors} onFill={onFillColor} />
         </div>
+        <div><h1>Coming Soon</h1></div>
         <Colors currentColor={currentColor} changeColor={setCurrentColor}/>
     </div>
 )
