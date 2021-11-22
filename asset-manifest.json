@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/coloring_app/static/css/main.8a18a5ae.chunk.css",
+    "main.js": "/coloring_app/static/js/main.46f06705.chunk.js",
+    "main.js.map": "/coloring_app/static/js/main.46f06705.chunk.js.map",
+    "runtime-main.js": "/coloring_app/static/js/runtime-main.b3c84458.js",
+    "runtime-main.js.map": "/coloring_app/static/js/runtime-main.b3c84458.js.map",
+    "static/css/2.e7166e2e.chunk.css": "/coloring_app/static/css/2.e7166e2e.chunk.css",
+    "static/js/2.6500afcf.chunk.js": "/coloring_app/static/js/2.6500afcf.chunk.js",
+    "static/js/2.6500afcf.chunk.js.map": "/coloring_app/static/js/2.6500afcf.chunk.js.map",
+    "static/js/3.71fe689c.chunk.js": "/coloring_app/static/js/3.71fe689c.chunk.js",
+    "static/js/3.71fe689c.chunk.js.map": "/coloring_app/static/js/3.71fe689c.chunk.js.map",
+    "index.html": "/coloring_app/index.html",
+    "static/css/2.e7166e2e.chunk.css.map": "/coloring_app/static/css/2.e7166e2e.chunk.css.map",
+    "static/css/main.8a18a5ae.chunk.css.map": "/coloring_app/static/css/main.8a18a5ae.chunk.css.map",
+    "static/js/2.6500afcf.chunk.js.LICENSE.txt": "/coloring_app/static/js/2.6500afcf.chunk.js.LICENSE.txt",
+    "static/media/Crystal.4dc3aac0.jpg": "/coloring_app/static/media/Crystal.4dc3aac0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3c84458.js",
+    "static/css/2.e7166e2e.chunk.css",
+    "static/js/2.6500afcf.chunk.js",
+    "static/css/main.8a18a5ae.chunk.css",
+    "static/js/main.46f06705.chunk.js"
+  ]
+}
