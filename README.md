@@ -25,7 +25,8 @@ This project was created using create-react-app and VSCode. Languages and/or fra
 The biggest challenge was learning how to interact with an svg when converting it to a JS file to make it usable for my purpose.
 
 
-To run this app you only need to clone it and then run npm install.
+To run this app you only need to clone it and then run npm install and then once that is finished run npm start.
+
 
 Check Out the Site!
 https://crystal-mackey.github.io/coloring_app/
