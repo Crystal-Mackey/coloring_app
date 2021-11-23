@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Flower from "./Flower";
 import Colors from "../colorPalette/Colors";
-import { FacebookShareButton, TwitterShareButton } from "react-share";
-import { FacebookIcon, TwitterIcon } from "react-share";
+import { FacebookShareButton, TwitterShareButton, LinkedinShareButton } from "react-share";
+import { FacebookIcon, TwitterIcon, LinkedinIcon } from "react-share";
 
 
 
@@ -46,6 +46,13 @@ function FlowerPage() {
         <TwitterIcon size={32} round />
         Share
       </TwitterShareButton>
+      <LinkedinShareButton
+      title={"Flower"}
+      url={"https://coloringpagemintbean.herokuapp.com/flower"}
+      summary={"A coloring page of a simple flower"}>
+        <LinkedinIcon size={32} round /> Share
+      </LinkedinShareButton>
+      
     
     
     
