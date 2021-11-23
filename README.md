@@ -33,4 +33,4 @@ To run this app you only need to clone it and then run npm install and then once
 
 <br/>
 Check Out the Site!
-https://crystal-mackey.github.io/coloring_app/
+https://coloringpagemintbean.herokuapp.com/
