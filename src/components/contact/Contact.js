@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
-import "./contact.css"
+import "../../App.css"
 
 let serviceID="service_76crbth"
 let templateID="template_dn0d0cb"

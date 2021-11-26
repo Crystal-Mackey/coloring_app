@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Home from "./components/home/Home";
 import Form from "./components/contact/Contact";
-import About from "./components/about/About";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./components/navigation/NavBar";
 import FlowerPage from "./components/flower/Flowerpage";

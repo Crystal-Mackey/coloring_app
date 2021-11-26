@@ -1,7 +1,6 @@
 import React from 'react';
 import video from "../video/ColoringFlower.mp4"
-import About from '../about/About';
-import logo from "../about/Crystal.jpg"
+import logo from "./Crystal.jpg"
 
 function Home() {
     return(

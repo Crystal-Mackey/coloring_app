@@ -2,6 +2,11 @@ body {
   display:flex;
   flex-direction: column;
   color: #ffffff;
+  
+}
+
+a {
+  color: #ffffff;
 }
 
 
@@ -10,10 +15,6 @@ body {
   justify-content: center;
 }
 
-.download{
-  display:flex;
-  justify-content: center;
-}
 
 
 .colors {
@@ -44,8 +45,168 @@ body {
 div.Navbar{
   width: 1000px;
   margin-left: 0px;
+  color: #21CE99;
 }
 
 html{
   margin-left: 25px;
 }
+
+
+:root {
+  --light: #d0d1d3;
+  --dark: #040d14;
+  --green: #21ce99;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background:
+radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.15) 30%, rgba(255,255,255,.3) 32%, rgba(255,255,255,0) 33%) 0 0,
+radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.3) 13%, rgba(255,255,255,0) 14%) 0 0,
+radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 17%, rgba(255,255,255,.43) 19%, rgba(255,255,255,0) 20%) 0 110px,
+radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) -130px -170px,
+radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) 130px 370px,
+radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.2) 13%, rgba(255,255,255,0) 14%) 0 0,
+linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
+background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
+background-color: #840b2a;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+}
+
+section {
+  margin: 25 10px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  margin-left: 10px;
+  
+}
+
+header div {
+  margin-left: auto;
+  font-size: 20px;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 20px;
+  color: #21CE99;
+  
+}
+
+
+
+h1 {
+  color: var(--green);
+}
+
+.contactForm{
+  display:flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+form {
+  margin-top: 0px;
+  background: var(--dark);
+  display:flex;
+  flex-direction: column;
+}
+
+
+
+.formRow {
+  margin: 10px 0 20px 0;
+}
+
+.formInput {
+  padding: 15px 10px;
+  background-color: var(--dark);
+  box-shadow: 0 0 0 2px var(--green);
+  border: none;
+  color: var(--green);
+}
+
+.formInput:focus {
+  background-color: var(--dark);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--green);
+  color: var(--light);
+}
+
+.formInput::placeholder {
+  color: var(--green);
+  opacity: 1;
+}
+
+.formInput:focus::placeholder {
+  color: var(--light);
+  opacity: 1;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#notifyToast {
+  color: #fff;
+  border-radius: 6px;
+  width: 200px;
+  margin-left: 75px;
+  background-color: var(--green);
+}
+
+.submit-btn {
+  background-color: var(--dark);
+  color: var(--green) !important;
+  padding: 15px 50px;
+  border: 2px solid var(--green);
+  border-radius: 10px;
+  margin-bottom: 25px;
+  
+}
+
+.submit-btn:hover {
+  background-color: var(--green);
+  color: var(--dark) !important;
+  border: 2px solid var(--green);
+}
+
+.submit-btn:disabled:hover {
+  background-color: var(--dark);
+  color: var(--green) !important;
+  cursor: wait;
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}
+
