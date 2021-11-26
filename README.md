@@ -6,6 +6,8 @@ Coloring app for my first ever hackathon from Nov 16,2021- Nov 23, 2021.
 Information about the challenge can be viewed here on the official page: https://mintbean.io/meets/cfa4fa54-c706-4c51-a04f-671f6686f9fd
 
 
+<video withd="750" height="500" controls> <source src="src/components/video/ColoringFlower.mp4" type="video/mp4"/> </video>
+
 Features:
 Navigate between pages.
 Choose from a palette of colors to color in a flower.
