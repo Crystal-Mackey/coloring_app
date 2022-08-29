@@ -36,5 +36,4 @@ The biggest challenge was learning how to interact with an svg when converting i
 To run this app you only need to clone it and then run npm install and then once that is finished run npm start.
 
 <br/>
-Check Out the Site!
-https://coloringpagemintbean.herokuapp.com/
+Deployment delayed since Heroku ceased free deployment dynos.
